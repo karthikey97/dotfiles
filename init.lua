@@ -265,4 +265,3 @@ vim.api.nvim_create_autocmd({ "TermOpen", "BufEnter" }, {
         vim.cmd("startinsert")
     end,
 })
-
