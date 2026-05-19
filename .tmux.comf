@@ -1,0 +1,15 @@
+unbind C-b
+
+set -g prefix C-j
+
+bind C-j send-prefix
+
+set -s set-clipboard on
+set -g status off
+set -g pane-border-style 'fg=#333333,bg=default'
+set -g pane-active-border-style 'fg=#333333,bg=default'
+
+bind j select-pane -D
+bind k select-pane -U
+bind h select-pane -L
+bind l select-pane -R 
